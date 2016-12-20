@@ -1,10 +1,10 @@
 # git-diff-img
 
 ![Example difference after replacing the left hand side with the right](doc/spot-the-diff-montage.png)
-<small>The result of `git-diff-img`. Sample image by
+<sub><sup>The result of `git-diff-img`. Sample image by
 [Muband](https://ja.wikipedia.org/wiki/%E5%88%A9%E7%94%A8%E8%80%85:Muband) from
 the [Spot the difference](https://en.wikipedia.org/wiki/Spot_the_difference)
-Wikipedia article; distributed under a CC BY-SA 3.0 license</small>
+Wikipedia article; distributed under a CC BY-SA 3.0 license</sup></sub>
 
 ## Installation
 
