@@ -19,6 +19,9 @@ git config --global alias.diff-img 'difftool -g'
 ```
 
 ### As an executable
+This is an alternative configuration that is not necessary if you use the Git
+configuration
+
 1. [Download](https://raw.githubusercontent.com/niedzielski/git-diff-img/master/git-diff-img) git-diff-img
 2. Mark git-diff-img executable: `chmod +x git-diff-img`
 3. Move git-diff-img to *either* `~/bin` or `/usr/local/bin`: `mv git-diff-img ~/bin/` OR `mv git-diff-img /usr/local/bin/`
