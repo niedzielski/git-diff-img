@@ -13,9 +13,7 @@ Install ImageMagick: `sudo apt install imagemagick`
 
 ### As a Git configuration (**recommended**)
 ```bash
-git config --global difftool.diff-img.cmd 'compare "$LOCAL" "$REMOTE" png:- | montage -mode concatenate "$LOCAL" png:- "$REMOTE" png:- | display -title "$BASE: Local | Diff | Remote" png:-' &&
-git config --global diff.guitool diff-img &&
-git config --global alias.diff-img 'difftool -g'
+git config --global alias.diff-img difftool\ -x\ \''compare "$LOCAL" "$REMOTE" png:- | montage -mode concatenate "$LOCAL" png:- "$REMOTE" png:- | display -title "$BASE: Local | Diff | Remote" png:-'\'
 ```
 
 ### As an executable (**not** recommended)
