@@ -1,7 +1,7 @@
 # git-diff-img
 
 ![Example difference after replacing the left hand side with the right](doc/spot-the-diff-montage.png)
-<small>The result of `git-diff-img`. Sample image by
+<small>The result of `git diff-img`. Sample image by
 [Muband](https://ja.wikipedia.org/wiki/%E5%88%A9%E7%94%A8%E8%80%85:Muband) from
 the [Spot the difference](https://en.wikipedia.org/wiki/Spot_the_difference)
 Wikipedia article; distributed under a CC BY-SA 3.0 license</small>
@@ -17,9 +17,9 @@ git config --global alias.diff-img difftool\ -x\ \''compare "$LOCAL" "$REMOTE" p
 ```
 
 ### As an executable (**not** recommended)
-This is an *alternative* that is unnecessary if the Git configuration is used.
-It is not recommended because it requires an understanding of PATH lookup and
-executables
+This is an *alternative* installation procedure that is unnecessary if the Git
+configuration is used. It's not recommended because it requires an understanding
+of PATH lookup
 
 ```bash
 wget https://raw.githubusercontent.com/niedzielski/git-diff-img/master/git-diff-img &&
