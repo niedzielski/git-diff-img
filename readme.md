@@ -22,9 +22,8 @@ configuration is used. It's not recommended because it requires an understanding
 of PATH lookup
 
 ```bash
-wget https://raw.githubusercontent.com/niedzielski/git-diff-img/master/git-diff-img &&
-chmod +x git-diff-img &&
-mv git-diff-img ~/bin/
+curl https://raw.githubusercontent.com/niedzielski/git-diff-img/master/git-diff-img -o ~/bin/git-diff-img &&
+chmod +x ~/bin/git-diff-img
 ```
 
 ## Usage
