@@ -13,7 +13,7 @@ Install ImageMagick: `sudo apt install imagemagick`
 
 ### As a Git configuration (**recommended**)
 ```bash
-git config --global alias.diff-img difftool\ -x\ \''compare "$LOCAL" "$REMOTE" png:- | montage -mode concatenate "$LOCAL" png:- "$REMOTE" png:- | display -title "$BASE: Local | Diff | Remote" png:-'\'
+git config --global alias.diff-img difftool\ -x\ \''compare -alpha copy "$LOCAL" "$REMOTE" png:- | montage -mode concatenate "$LOCAL" png:- "$REMOTE" png:- | display -title "$BASE: Local | Diff | Remote" png:-'\'
 ```
 
 ### As an executable (**not** recommended)
@@ -35,4 +35,4 @@ Execute against images only: `git diff-img **.png`
 - [Improved Colored Diff](https://github.com/jeffkaufman/icdiff)
 
 ## License (Public Domain)
-All code is public domain and may be used without limitation
+All code is public domain and may be used without limitation.
