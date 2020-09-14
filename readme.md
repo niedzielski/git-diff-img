@@ -30,7 +30,7 @@ chmod +x ~/bin/git-diff-img
 Execute against images only: `git diff-img **.png`
 
 ## Links
-
+- [delta](https://github.com/dandavison/delta)
 - [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
 - [Improved Colored Diff](https://github.com/jeffkaufman/icdiff)
 
