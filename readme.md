@@ -31,7 +31,7 @@ Execute against images only: `git diff-img **.png`
 
 ## Examples
 ![The percentage symbol differs](doc/example-font.png)
-_Version a font sprite sheet and see the concrete difference in each commit._
+_Version a [font](https://rndmem.com) sprite sheet and see the concrete difference in each commit._
 
 ## Links
 - [delta](https://github.com/dandavison/delta)
