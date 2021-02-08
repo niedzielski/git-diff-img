@@ -29,6 +29,10 @@ chmod +x ~/bin/git-diff-img
 ## Usage
 Execute against images only: `git diff-img **.png`
 
+## Examples
+![The percentage symbol differs](doc/example-font.png)
+_Version a font sprite sheet and see the concrete difference in each commit._
+
 ## Links
 - [delta](https://github.com/dandavison/delta)
 - [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
